@@ -110,6 +110,8 @@ contenedor.save(infoNueva).then( res => {
     console.log(res);
 });
 
+let randomizado = "Regla";
+
 //----------------------------------------------------Server
 
 const express = require('express');
@@ -119,7 +121,7 @@ const PORT = process.env.PORT || 8080;
 const app = express();
 
 app.get('/', (req,res) => {
-    res.send('Esta es la pagina de inicio =)')
+    res.send(`Esta es la pagina principal y el producto random es (${randomizado})`)
 })
 
 app.get('/login', (req,res) => {
