@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "title": "Escuadra",
+        "price": 100
+    },
+    {
+        "id": 2,
+        "title": "Regla",
+        "price": 25
+    },
+    {
+        "id": 3,
+        "title": "Calculadora",
+        "price": 150
+    },
+    {
+        "id": 4,
+        "title": "Tijeras",
+        "price": 100
+    }
+]
